@@ -1,0 +1,11 @@
+I used MySQL workbench with following details:
+
+SQL authentication (mine xD): uname and pwd as "root"
+Db name: Demo
+Table name and structure: notes
+
+id int(3) not null auto_increment,
+title varchar(20),
+despt varchar(1000)
+
+Thats it : )
