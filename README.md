@@ -1,14 +1,13 @@
 # College projects
 
-## Notemaker J2EE project
-J2EE college project for notemaking application
+## Notemaker 2 J2EE program
+J2EE mini project for notemaking application
 Has mysql db for data storage, servlets for handling url requests and jsp for pages.
 
-## Notemaker CRUD app Python tkinter
-Python tkinter appication with sqlite db
+## Tkinter projects
+Python Tkinter application
+Has UI, sql backend for data storage, CRUD applications, 
+Notemaker, Books-manager, contacts manager.
 
-## Contacts managing CRUD app Python tkinter
-Python tkinter app with sqlite db for managing contacts
-
-## Book store managing CRUD app Python tkinter
-Python tkinter app for managing books and magazines
+## Recursion VS Iteration
+Java programs to help understand the recursive and iterative way to solve problems.
