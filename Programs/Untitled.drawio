@@ -1,9 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2024-05-23T17:31:53.430Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" version="24.4.4" etag="iwTJ3WGQYYy56frvQ_QY" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-23T21:16:00.804Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="XzclcbQM7_AFiq2269ig" version="24.4.6" type="github">
   <diagram name="Page-1" id="DKbRM6KzY17IpEADZtu5">
-    <mxGraphModel>
+    <mxGraphModel dx="1048" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hJ-UVISIxcOwiUivxhlQ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hJ-UVISIxcOwiUivxhlQ-3" target="hJ-UVISIxcOwiUivxhlQ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hJ-UVISIxcOwiUivxhlQ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hJ-UVISIxcOwiUivxhlQ-3" target="hJ-UVISIxcOwiUivxhlQ-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="240" />
+              <mxPoint x="240" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hJ-UVISIxcOwiUivxhlQ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hJ-UVISIxcOwiUivxhlQ-3" target="hJ-UVISIxcOwiUivxhlQ-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="240" />
+              <mxPoint x="240" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hJ-UVISIxcOwiUivxhlQ-3" value="SMILE STRING" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="30" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hJ-UVISIxcOwiUivxhlQ-4" value="VIRTUAL SCREENING TOOL UI" style="swimlane;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="210" y="80" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="hJ-UVISIxcOwiUivxhlQ-6" value="ADMET PREDICTION" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="hJ-UVISIxcOwiUivxhlQ-4">
+          <mxGeometry x="60" y="50" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hJ-UVISIxcOwiUivxhlQ-9" value="FINGERPRINT" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="hJ-UVISIxcOwiUivxhlQ-4">
+          <mxGeometry x="60" y="140" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hJ-UVISIxcOwiUivxhlQ-10" value="DRUG LIKENESS PREDICTION" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="hJ-UVISIxcOwiUivxhlQ-4">
+          <mxGeometry x="60" y="220" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hJ-UVISIxcOwiUivxhlQ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hJ-UVISIxcOwiUivxhlQ-10" target="hJ-UVISIxcOwiUivxhlQ-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="345" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="320" />
+              <mxPoint x="570" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hJ-UVISIxcOwiUivxhlQ-27" value="csv" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="630" y="50" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hJ-UVISIxcOwiUivxhlQ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hJ-UVISIxcOwiUivxhlQ-6" target="hJ-UVISIxcOwiUivxhlQ-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hJ-UVISIxcOwiUivxhlQ-29" value="csv" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="630" y="175" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hJ-UVISIxcOwiUivxhlQ-30" value="txt" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="630" y="300" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hJ-UVISIxcOwiUivxhlQ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.017;entryY=0.729;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hJ-UVISIxcOwiUivxhlQ-9" target="hJ-UVISIxcOwiUivxhlQ-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hJ-UVISIxcOwiUivxhlQ-33" value="Descriptor set of input smiles" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="90" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hJ-UVISIxcOwiUivxhlQ-34" value="fingerprint result&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="220" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hJ-UVISIxcOwiUivxhlQ-35" value="drug likeness prediction result" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="340" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hJ-UVISIxcOwiUivxhlQ-36" value="G CONV model" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="300" y="410" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hJ-UVISIxcOwiUivxhlQ-42" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.457;exitY=-0.073;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="hJ-UVISIxcOwiUivxhlQ-36" target="hJ-UVISIxcOwiUivxhlQ-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="410" as="sourcePoint" />
+            <mxPoint x="350" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
